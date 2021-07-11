@@ -2,6 +2,7 @@
   <div id="app">
     <h1> ToDoアプリ</h1>
       <input type="text" v-model="textInput">
+      <p>{{ textInput }}</p>
   </div>
 </template>
 
